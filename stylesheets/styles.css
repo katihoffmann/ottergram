@@ -107,7 +107,7 @@ a {
   font-size: 40px;
 }
 
-@media (orientation: landscape) {
+@media all and (min-width: 768px) {
   .main-content{
     flex-direction: row;
     overflow: hidden;
